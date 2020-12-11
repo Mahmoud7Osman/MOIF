@@ -1,0 +1,15 @@
+#MOIF_language.moif
+#This is not a programming language< just some instruction translated by moif tool
+
+moif:miof
+report:report.db
+follow:prepare_if=p_database::1
+if:!open____1_3==-e:::interrupt
+code_compilecheck()[getargv_1().23./__2]
+prp_.morsecode_(-.-.-.--.--.-.--.-....-)
+pup.update_check_f1.f2.3___[morse_code(-..-..-)]
+pup_finish_.exit{1,2!!!??if1=2}
+
+
+moif_translator._translate>instruction *> cc.getcclen()*cclen-1___if-cc=exist!=1
+exit_db_check=Check_var

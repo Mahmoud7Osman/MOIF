@@ -1,0 +1,17 @@
+echo "Warning: Interrupt The Script If you are not the root user !!"
+sleep 5
+echo "Starting installation..."
+apt install xterm >> /dev/null
+xterm -e 'pip3 install pyvirtualdisplay'
+xterm -e 'pip3 install geckodriver-autoinstaller'
+xterm -e 'pip3 install Faker'
+xterm -e 'pip3 install instapy'
+xterm -e 'sudo apt-get install xvfb'
+mkdir /root/.moif/
+cd MOIF
+cp moif.c /root/.moif/
+cp moif.f /root/.moif/
+cp info.miof /root/.moif/
+chmod +x moifconsole
+cp moifconsole /bin
+echo "To Run MOIF, type moifconsole"
